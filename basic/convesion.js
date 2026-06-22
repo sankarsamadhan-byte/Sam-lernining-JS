@@ -26,5 +26,19 @@ liek  1->true
 
 let number=99;
 let conver=String(number)
-console.log(conver);
-console.log(typeof conver)
+//console.log(conver);
+//console.log(typeof conver)
+
+// console.log(null>0)
+
+// console.log(null==0)
+
+// console.log(null>=0)
+
+// console.log(undefined>0)
+// console.log(undefined<0)
+// console.log(undefined==0)
+
+
+console.log("2"===2);
+console.log("2"==2)
