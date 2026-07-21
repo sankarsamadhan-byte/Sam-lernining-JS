@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1> SAM  LEring  the  core  JS </h1>
+<button id="st">Start </button>
+<button id="sto">Stop</button>
+</body>
+
+<script>
+
+const say=function(str)
+{
+
+    console.log(str,Date.now());
+}
+
+let stop
+document.getElementById('st').addEventListener('click',function(){
+
+    stop = setInterval(say,10,"SAM");
+
+});
+
+document.getElementById('sto').addEventListener('click',function(){
+
+    clearInterval(stop)
+});
+
+
+</script>
+</html>
